@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <form>
+            <h1>Job Application Form</h1>
+            <fieldset>
+                <legend>Personal Info</legend><br>
+            <label for="name">Full Name:</label><br>
+            <input type="text"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email"><br><br>
+            <label for="tel">Phone:</label><br>
+            <input type="tel" maxlength="10"><br>
+            </fieldset><br>
+            <fieldset>
+                <legend>Application Details</legend>
+                <br>Position Applied For:<br>
+                <select>
+                <option>Developer</option>
+                <option>Designer</option>
+                <option>Manager</option>
+                </select><br><br>   
+                Experience Level:<br>
+                <input type="radio" name="experience"> Fresher<br>
+                <input type="radio" name="experience">1-3 Years<br>
+                <input type="radio" name="experience">3+ Years<br><br>
+                Upload Resume(PDF only):<br>
+                <input type="file" accept=".pdf"><br><br>
+                Cover Letter:<br>
+                <textarea rows="7" cols="40" placeholder="Tell us why you're a great fit..."></textarea><br>
+            </fieldset><br>
+            <input type="submit" value="Submit Application">
+        </form>
+    </body>
+</html>

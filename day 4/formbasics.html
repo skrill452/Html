@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <form action="">
+        <h1>Form</h1>
+
+        <label for="name">Username:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter password"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter email"><br><br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" placeholder="Enter age"><br><br>
+        <label for="dob">DOB:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time"><br><br>
+        <label for="file">Upload Resume:</label>
+        <input type="file" id="file" name="file"><br><br>
+
+        Skills:<br> 
+        <!-- <label>Skills:</label><br> -->
+        <input type="checkbox" >Programming<br>
+        <input type="checkbox" >Design<br>
+        <input type="checkbox" >Management<br><br>
+
+        Gender:<br>
+        <!-- <label>Gender:</label><br> -->
+        <input type="radio" name="gender">Male <br>
+        <input type="radio" name="gender">Female<br><br>
+
+        Country:
+        <select>
+            <option>India</option>
+            <option>Japan</option>
+            <option>USA</option>
+        </select><br><br>
+
+        Volume:
+        <input type="range" value="20" min="0" max="100"><br><br>
+
+        Favorite Color:
+        <input type="color"><br><br>
+
+        Website:
+        <input type="url" placeholder="Enter website"><br><br>
+
+        Ph Number:
+        <input type="tel" placeholder="Enter phone number" maxlength="10"><br><br>
+        </form>
+
+        Message:
+        <textarea rows="10" cols="30"></textarea><br><br>
+
+        UserID:
+        <input type="hidden" value="12345"><br><br>
+
+        <!-- fieldset -->
+        <fieldset>
+            <legend>Subscription Plan</legend>
+            <input type="radio" name="plan">basic<br>
+            <input type="radio"name="plan">premium
+        </fieldset><br>
+
+        <input type="submit" value="submit">
+        <input type="reset"  value="reset">
+
+        <button>submit</button>
+        <button onclick="alert('Button clicked')">click</button>
+    </body>
+</html>
